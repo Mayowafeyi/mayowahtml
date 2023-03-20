@@ -1,109 +1,59 @@
-:root {
-  --Dark-cyan: hsl(158, 36%, 37%);
-  --Cream: hsl(30, 38%, 92%);
-  --Very-dark-blue: hsl(212, 21%, 14%);
-  --Dark-grayish-blue: hsl(228, 12%, 48%);
-  --White: hsl(0, 0%, 100%);
-}
-* {
-  padding: 0;
-  margin: 0;
-}
-
 body,
 html {
-  color: var(--Dark-grayish-blue);
-  font-family: "Montserrat", serif;
-  font-size: 10px;
-  font-size: 500;
-  box-sizing: border-box;
+  padding: 50px;
+  margin: 0px;
+  font-size: 100%;
+  background-color: hsl(216, 12%, 8%);
+  font-family: "Outfit", sans-serif;
+}
+.new {
+  color: orange;
+  padding: 3px
+  border-radius: 50%;
 }
 
-.card-header {
-  display: flex;
-  align-items: center;
-}
-
-.desc {
-  font-family: "Fraunces", serif;
-  padding: 10px 0;
-  text-transform: capitalize;
-  /* padding: 10px 5px 10px 5px; */
-  /* padding: 10px 5px 3px 9px; */
-  /* padding: trbl; */
-}
-
-.desc strike {
-  font-family: "Montserrat", serif;
-}
-.badge {
-  color: var(--Very-dark-blue);
-}
-
-strike {
-  color: var(--Dark-grayish-blue);
-}
-.card-title {
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
-  margin-right: 10px;
-}
-
-.green {
-  color: var(--Very-dark-blue);
-  font-size: 2rem;
-}
-
-.cyan {
-  width: 60%;
-  color: var(--Dark-cyan);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.cyan p {
-  font-size: 2rem;
-}
-
-button {
-  background: var(--Dark-cyan);
-  color: var(--White);
-  padding: 5px;
-  border: 1px solid transparent;
-  cursor: pointer;
-  width: 100%;
-  border-radius: 5px;
-  font-size: 10px;
-  font-family: "Montserrat", serif;
-}
-
-.container {
-  width: 100vw;
-  height: 100vh;
-  background: var(--Cream);
-  display: grid;
-  place-content: center;
-}
-
-.container-card {
-  display: flex;
-  width: 35%;
+.course {
+  padding: 10px;
+  width: 300px;
+  display: block;
+  border-radius: 20px;
+  align-content: center;
+  border: 5px solid transparent;
+  border-radius: 30px;
+  box-shadow: 0 0 2px rgba(170, 125, 125, 0.4);
+  background-color: hsl(208, 21%, 12%);
+  margin: 100px 100px 100px 100px;
   margin: auto;
-  background-color: var(--White);
+}
+.glass {
+  text-align: center;
+}
+.glass span {
+  border-radius: 50%;
+  margin: 5px;
+  /* padding: 10px; */
+  border: 2px solid grey;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 54%);
+  width: 20px;
+  height: 20px;
+}
+a {
+  text-decoration: none;
   border-radius: 10px;
-  overflow: hidden;
-  /* outline: 1px solid red; */
+  padding: 5px;
+  background-color: orange;
+  color: white;
+  display: block;
+  margin: 10px;
+  font-size: small;
 }
-.card-cap {
-  flex: 1;
-}
-.left-card-section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.solidtext {
+  font-family: "Outfit", sans-serif;
+  color: hsl(0, 0%, 100%);
 }
 
-.right-card-section {
-  padding: 20px;
+h3 {
+  color: hsl(0, 0%, 100%);
 }
+
